@@ -9,3 +9,4 @@
 7. Memo recommends the logistic model, so the Task 2.8 cost of other models is deliberately not computed; the memo says so.
 8. AdaBoost ensemble: a zero score would count as wrong (does not occur).
 9. Checkpoints all matched (n, mean 8.9382, 560/119/240/51, loss 0.6931, wcss_k2 2262.6753, K-means passes 21/15/27, eigenvalue_sum 5.0000, root_entropy 0.7462, round1_error 0.2500); no discrepancies to resolve.
+10. Deploy check (local only): clean clone with a fresh venv reproduced data/ and outputs/ byte for byte and passed all tests; the clone was deleted. docs/ and tests/ were kept tracked (the brief does not forbid extra files). No remote was added and nothing was pushed.
